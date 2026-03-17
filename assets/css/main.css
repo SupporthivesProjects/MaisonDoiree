@@ -100,8 +100,6 @@
     padding-top: 26.5px;
     padding-bottom: 26.5px;
 
-    padding-top: 23px;
-    padding-bottom: 23px;
 }
 .nav_center {
     display: flex;
@@ -334,6 +332,8 @@
     .nav_main {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 23px;
+        padding-bottom: 23px;
     }
     .footer_left_text {
         max-width: unset;
