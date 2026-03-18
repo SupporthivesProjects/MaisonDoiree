@@ -186,9 +186,25 @@ line-height: 24px; /* 184.615% */
     margin: 0px;
 }
 
+/* Gallery */
 
+.grind_duo_box {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
 
+.gallery_quad_b {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
 
+.gallery_quad_b .grind_duo_box:last-child{
+    display: flex;
+} 
 
 
 
