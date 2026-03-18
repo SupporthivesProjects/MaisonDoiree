@@ -143,7 +143,9 @@
   font-weight: 300;
   line-height: normal;
   letter-spacing: 1px;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(248, 212, 158, 0.20);
+  margin-bottom: 36px;
 }
 
 /* ITEM */
@@ -218,7 +220,7 @@
 }
 
 .lieene {
-  background-color: #463f34;
+  background: url(../img/verti_divide.png);
   height: 1px;
   margin: 0px auto 36px;
 }
@@ -271,9 +273,88 @@
 
 }
 
-.verti_line{
-  width: 1px;
-height: 120px;
-flex-shrink: 0;
-background-color: #403a26;
+.verti_line {
+  width: 2px;
+  height: 120px;
+  flex-shrink: 0;
+  background-color: #403a26;
+}
+
+/* ////////////////////////Gallery */
+.gallery_tab {
+  background: #1A1A1A;
+  padding: 100px 0px;
+}
+
+
+
+/* Tabs */
+.gallery_tab-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  max-width: 562px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(248, 212, 158, 0.15);
+
+}
+
+.gallery_tab-nav .nav-link {
+  display: flex;
+  padding: 16px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(248, 212, 158, 0.15);
+  color: #D4CAB8;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.gallery_tab-nav .nav-link.active {
+  display: flex;
+  padding: 16px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(248, 212, 158, 0.15);
+  background: #F8D49E;
+  color: #1A1A1A;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+
+}
+
+.gallery_tab-container {
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+}
+
+.grind_duo_box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.gallery_quad_b{
+  display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
 }
