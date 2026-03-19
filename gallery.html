@@ -423,33 +423,7 @@
             });
         });
     </script>
-    <!-- TAB Pannel -->
-    <script>
-        const buttons = document.querySelectorAll('.gallery_tab-nav .nav-link');
-        const items = document.querySelectorAll('.gallery_tab-item');
-
-        buttons.forEach(btn => {
-            btn.addEventListener('click', function () {
-
-                // Remove active from ALL buttons safely
-                buttons.forEach(b => b.classList.remove('active'));
-
-                // Add active to clicked
-                this.classList.add('active');
-
-                const filter = this.getAttribute('data-filter');
-
-                items.forEach(item => {
-                    if (filter === 'all' || item.classList.contains(filter)) {
-                        item.classList.remove('gallery_tab-hidden');
-                    } else {
-                        item.classList.add('gallery_tab-hidden');
-                    }
-                });
-
-            });
-        });
-    </script>
+   
 
 </body>
 
