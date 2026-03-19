@@ -20,7 +20,12 @@
     align-items: flex-start;
     gap: 16px;
 }
-
+.gallery_tab {
+    padding: 20px;
+}
+.gallery_quad_b > *:nth-child(3) {
+    grid-column: span 2;
+}
 .menu_tab-footer {
     display: flex;
     width: 100%;

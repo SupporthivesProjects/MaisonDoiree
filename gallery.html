@@ -31,7 +31,7 @@
 
 <body>
 
-    <header class="">
+    <header class="fixed-top">
         <div class="container nav_main">
             <div class="nav_left">
 
@@ -89,75 +89,234 @@
         <div class="container px-0">
 
             <!-- Tabs -->
-            <ul class="nav gallery_tab-nav">
+            <ul class="nav gallery_tab-nav" id="galleryTab" role="tablist">
                 <li class="nav-item">
-                    <button class="nav-link active" data-filter="all">ALL</button>
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all"
+                        type="button">ALL</button>
                 </li>
                 <li class="nav-item">
-                    <button class="nav-link" data-filter="cuisine">CUISINE</button>
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cuisine"
+                        type="button">CUISINE</button>
                 </li>
                 <li class="nav-item">
-                    <button class="nav-link" data-filter="interior">INTERIOR</button>
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#interior"
+                        type="button">INTERIOR</button>
                 </li>
                 <li class="nav-item">
-                    <button class="nav-link" data-filter="events" style="border-right:none">EVENTS</button>
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#events" type="button"
+                        style="border-right:none">EVENTS</button>
                 </li>
             </ul>
 
-            <!-- Gallery -->
-            <div class="gallery_tab-container">
-                <!-- Item 1 -->
-                <div class="gallery_quad_b">
-                    <!-- COL 1 -->
-                    <div class="grind_duo_box">
-                        <div class="gallery_tab-item cuisine">
-                            <img src="./assets/img/Background (1).png" class="img-fluid">
-                        </div>
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="all">
+                    <div class="gallery_tab-container">
+                        <!-- Item 1 -->
+                        <div class="gallery_quad_b">
+                            <!-- COL 1 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (1).png" class="img-fluid">
+                                </div>
 
-                        <div class="gallery_tab-item interior">
-                            <img src="./assets/img/Background (2).png" class="img-fluid">
-                        </div>
-                        <div class="gallery_tab-item cuisine">
-                            <img src="./assets/img/Background (6).png" class="img-fluid">
-                        </div>
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (2).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (6).png" class="img-fluid">
+                                </div>
 
-                        <div class="gallery_tab-item interior">
-                            <img src="./assets/img/Background (7).png" class="img-fluid">
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (7).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 2 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (3).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (4).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (8).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 3 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (5).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (9).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (10).png" class="img-fluid">
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
-                    <!-- COL 2 -->
-                    <div class="grind_duo_box">
-                        <div class="gallery_tab-item cuisine">
-                            <img src="./assets/img/Background (3).png" class="img-fluid">
-                        </div>
-                        <div class="gallery_tab-item cuisine">
-                            <img src="./assets/img/Background (4).png" class="img-fluid">
-                        </div>
-                        <div class="gallery_tab-item events">
-                            <img src="./assets/img/Background (8).png" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- COL 3 -->
-                    <div class="grind_duo_box">
-                        <div class="gallery_tab-item events">
-                            <img src="./assets/img/Background (5).png" class="img-fluid">
-                        </div>
-                        <div class="gallery_tab-item cuisine">
-                            <img src="./assets/img/Background (9).png" class="img-fluid">
-                        </div>
-                        <div class="gallery_tab-item events">
-                            <img src="./assets/img/Background (10).png" class="img-fluid">
-                        </div>
-                    </div>
-
-
-
                 </div>
+                <div class="tab-pane fade" id="cuisine">
+                    <div class="gallery_tab-container">
+                        <!-- Item 1 -->
+                        <div class="gallery_quad_b">
+                            <!-- COL 1 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (1).png" class="img-fluid">
+                                </div>
+
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (2).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (6).png" class="img-fluid">
+                                </div>
+
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (7).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 2 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (3).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (4).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (8).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 3 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (5).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (9).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (10).png" class="img-fluid">
+                                </div>
+                            </div>
 
 
 
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="interior">
+                    <div class="gallery_tab-container">
+                        <!-- Item 1 -->
+                        <div class="gallery_quad_b">
+                            <!-- COL 1 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (1).png" class="img-fluid">
+                                </div>
 
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (2).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (6).png" class="img-fluid">
+                                </div>
+
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (7).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 2 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (3).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (4).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (8).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 3 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (5).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (9).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (10).png" class="img-fluid">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="events">
+                    <div class="gallery_tab-container">
+                        <!-- Item 1 -->
+                        <div class="gallery_quad_b">
+                            <!-- COL 1 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (1).png" class="img-fluid">
+                                </div>
+
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (2).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (6).png" class="img-fluid">
+                                </div>
+
+                                <div class="gallery_tab-item interior">
+                                    <img src="./assets/img/Background (7).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 2 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (3).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (4).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (8).png" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- COL 3 -->
+                            <div class="grind_duo_box">
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (5).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item cuisine">
+                                    <img src="./assets/img/Background (9).png" class="img-fluid">
+                                </div>
+                                <div class="gallery_tab-item events">
+                                    <img src="./assets/img/Background (10).png" class="img-fluid">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Gallery -->
+
         </div>
     </section>
 
