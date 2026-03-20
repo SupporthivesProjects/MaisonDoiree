@@ -1,0 +1,427 @@
+/* ===============================
+   NAVBAR
+================================ */
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100px;
+    padding: 20px 100px;
+
+    background: rgba(26, 26, 26, 0.16);
+    backdrop-filter: blur(4px);
+
+    transition: all 0.3s ease;
+} */
+
+.nav_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_nav_link,
+.btn_nav {
+    color: #fff !important;
+}
+
+header.scrolled {
+    background: rgba(13, 13, 13, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+.contact_hero {
+    display: flex;
+    align-items: flex-end;
+    padding: 100px;
+    height: 620px;
+    position: relative;
+
+    background: linear-gradient(
+        0deg,
+        rgba(26, 26, 26, 0.4),
+        rgba(26, 26, 26, 0.4)
+    ),
+    url('../img/contact-hero.png') center/cover no-repeat;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.hero_content h1 {
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* ===============================
+   CONTACT SECTION WRAPPER
+================================ */
+.contact_reservation {
+    background: #0d0d0d;
+}
+
+/* ===============================
+   LEFT SECTION
+================================ */
+.contact_left {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+
+    padding: 100px 80px;
+    background: #1A1A1A;
+}
+
+.contact_left h2 {
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact_left .desc {
+    color: rgba(248, 212, 158, 0.40);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+/* INFO */
+.info_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.icon_box {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(248, 212, 158, 0.30);
+    flex-shrink: 0;
+}
+
+.icon_box img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(83%) sepia(25%) saturate(400%) hue-rotate(340deg);
+}
+
+.info_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_title {
+    color: #F8D49E;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.info_item p {
+    color: #F5EFE0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    margin: 0;
+}
+
+/* SOCIAL */
+.social_icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.social_icons span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+    border: 1px solid rgba(248, 212, 158, 0.30);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* IMAGE INSIDE */
+.social_icons span img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+
+    /* convert icon to beige */
+    filter: brightness(0) saturate(100%) invert(85%) sepia(10%) saturate(200%) hue-rotate(340deg);
+}
+
+/* HOVER */
+.social_icons span:hover {
+    background: #F8D49E;
+    transform: translateY(-3px);
+}
+
+/* HOVER IMAGE COLOR */
+.social_icons span:hover img {
+    filter: brightness(0) saturate(100%) invert(10%);
+}
+
+/* ===============================
+   RIGHT SECTION
+================================ */
+.contact_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 80px;
+    background: rgba(254, 254, 253, 0.105);
+}
+
+.contact_right h2 {
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact_right .sub_heading {
+    color: rgba(248, 212, 158, 0.40);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+.reservation_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.form_group label {
+    display: block;
+    color: #F8D49E;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.reservation_form input,
+.reservation_form textarea {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid rgba(248, 212, 158, 0.15);
+    background: rgba(255, 255, 255, 0.04);
+    color: #F5EFE0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.reservation_form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.reservation_form input::placeholder,
+.reservation_form textarea::placeholder {
+    color: rgba(245, 239, 224, 0.4);
+}
+
+.reservation_form input:focus,
+.reservation_form textarea:focus {
+    border-color: #F8D49E;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.btn_submit {
+    width: 100%;
+    padding: 18px;
+    background: #F8D49E;
+    border: none;
+    color: #1A1A1A;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn_submit:hover {
+    background: #fff;
+}
+
+/* ===============================
+   LOCATION SECTION
+================================ */
+.location_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 100px 20px;
+
+    background: linear-gradient(
+        0deg,
+        rgba(26, 26, 26, 0.45),
+        rgba(26, 26, 26, 0.45)
+    ),
+    url('../img/contact-hero2.png') center/cover no-repeat;
+}
+
+.location_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.location_pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background: #F8D49E;
+    border-radius: 28px 28px 28px 0;
+    transform: rotate(-45deg);
+}
+
+.location_pin img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(10%) saturate(500%) hue-rotate(10deg);
+    transform: rotate(45deg);
+}
+
+.location_text {
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+/* ===============================
+   SECTION HEADING (COMMON)
+================================ */
+.section_heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.heading_line {
+    width: 44px;
+    display: block;
+}
+
+.section_heading p {
+    margin: 0;
+    line-height: 1;
+}
+
+.sub_text,
+.sub_heading {
+    color: #F8D49E;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.sub_text {
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.sub_heading {
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+        height: 70px;
+    }
+
+    .contact_hero {
+        padding: 40px 20px;
+        height: 400px;
+    }
+
+    .hero_content h1 {
+        font-size: 42px;
+    }
+
+    .contact_left,
+    .contact_right {
+        padding: 60px 20px;
+    }
+
+    .location_section {
+        height: 350px;
+        padding: 60px 15px;
+    }
+
+    .location_text {
+        font-size: 24px;
+    }
+
+    .location_pin {
+        width: 46px;
+        height: 46px;
+    }
+
+    .location_pin img {
+        width: 18px;
+        height: 18px;
+    }
+}
