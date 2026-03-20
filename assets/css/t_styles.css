@@ -1,0 +1,2565 @@
+.desktop_none {
+    display: none;
+}
+
+.mobile_none {
+    display: block;
+}
+
+.aboutus_1 {
+    background: url(../img/about1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 251px;
+    padding-bottom: 100px;
+}
+
+.in_about1 {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.top_about1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.about1_tt {
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.about1_pp {
+    color: #F8D49E;
+    font-family: "Josefin Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.divider_about {
+    background: #F8D49E;
+    width: 44px;
+    height: 1px;
+}
+
+
+.aboutus_3 {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: #1A1A1A;
+}
+
+.about3_p {
+    color: #F8D49E;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.top_about3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.for_center {
+    justify-content: center;
+}
+
+.about3_tt {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.bottom_about3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.card_card {
+    background: url(../img/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 424px;
+    max-width: 424px;
+    height: 720px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card2 {
+    background: url(../img/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card3 {
+    background: url(../img/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card4 {
+    background: url(../img/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card_card h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.card_card p {
+    color: #F8D49E;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.aboutus_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_about2 {
+    background: #F5EFE0;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.right_about2 {
+    background: url(../img/right_about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+}
+
+.about2_pp {
+    color: #1A1A1A;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.about2_tt {
+    color: #1A1A1A;
+    font-family: "Cormorant Garamond";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.about2_pp2 {
+    color: rgba(15, 15, 15, 0.65);
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 171.429% */
+    margin-bottom: 16px;
+}
+
+.extra_margin_bottom {
+    margin-bottom: 40px;
+}
+
+.gold_buttton {
+    display: flex;
+    padding: 16px 44px;
+    flex-direction: column;
+    align-items: center;
+    background: #F8D49E;
+    color: #1A1A1A;
+    font-family: "Josefin Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.stick_right {
+    max-width: 760px;
+    margin-left: auto;
+}
+
+.bottom_16 {
+    margin-bottom: 16px;
+}
+
+.aboutus_4 {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background: #1A1A1A;
+}
+
+.bottom_about4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.top_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.about4_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    display: flex;
+    padding: 60px;
+    background: rgba(248, 212, 158, 0.02);
+    max-width: 856px;
+}
+
+.second_side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+.second_side h1 {
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+    align-self: stretch;
+}
+
+.second_side p {
+    color: rgba(212, 202, 184, 0.70);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    align-self: stretch;
+    margin-bottom: 0px;
+}
+
+.number_css {
+    color: rgba(248, 212, 158, 0.16);
+    font-family: "Cormorant Garamond";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.home7 {
+    background: url(../img/home7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 107px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home7_tt {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.home7_tt_span {
+    color: #F8D49E;
+    font-family: "Cormorant Garamond";
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.home7_pp {
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.home5 {
+    display: flex;
+    padding: 60px 100px;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid rgba(248, 212, 158, 0.20);
+    border-bottom: 1px solid rgba(248, 212, 158, 0.20);
+    background-color: #1E1E1D;
+}
+
+.box_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-right: 1px solid rgba(248, 212, 158, 0.20);
+    max-width: 430px;
+    width: 430px;
+}
+
+.no_right_border {
+    border-right: none;
+}
+
+.box_box h1 {
+    color: #F8D49E;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.box_box p {
+    color: rgba(248, 212, 158, 0.80);
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.home_6 {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background: #1A1A1A;
+}
+
+.bottom_home6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.bottom_home6_card {
+    display: flex;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border: 1px solid rgba(248, 212, 158, 0.20);
+    background: rgba(248, 212, 158, 0.02);
+    max-width: 547px;
+    width: 547px;
+}
+
+.home6_1 {
+    color: #F8D49E;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    /* 50% */
+    margin-bottom: 0px;
+    opacity: 0.3;
+}
+
+.home6_2 {
+    color: #F8D49E;
+    text-align: center;
+    font-family: "Segoe UI Symbol";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+.home6_3 {
+    color: #F5EFE0;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 34px;
+    /* 170% */
+    margin-bottom: 0px;
+}
+
+.home6_4 {
+    color: #F8D49E;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    height: 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    margin-bottom: 0px;
+}
+
+.home4 {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: #1A1A1A;
+}
+
+.trans_button {
+    display: flex;
+    padding: 16px 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.middle_home4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.middle_card {
+    background: url(../img/middle_card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 720px;
+    width: 570px;
+    max-width: 570px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.inner_caard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.middle_card p {
+    color: #F8D49E;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.middle_card h1 {
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+    margin-bottom: 0px;
+}
+
+.middle_card h2 {
+    color: #F8D49E;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.middle_card2 {
+    background: url(../img/middle_card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.middle_card3 {
+    background: url(../img/middle_card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home3 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left_home3 {
+    height: 700px;
+    background: url(../img/left_home3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.right_home3 {
+    background: #F5EFE0;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.stick_left {
+    max-width: 760px;
+    margin-right: auto;
+}
+
+
+.home2 {
+    display: flex;
+    flex-direction: row;
+    background: #1A1A1A;
+}
+
+.home2_card {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 640px;
+    /* width: 640px; */
+    border-right: 1px solid rgba(248, 212, 158, 0.10);
+    background: #1A1A1A;
+}
+
+
+.inner_home2_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.extra_margin_bottom_ofdivider {
+    margin-bottom: 32px;
+}
+
+.left_div h1 {
+    color: #FFF;
+    font-family: "Cormorant Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.left_div p {
+    color: rgba(212, 202, 184, 0.70);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+    margin-bottom: 0px;
+}
+
+.right_div {
+    color: rgba(248, 212, 158, 0.16);
+    font-family: "Cormorant Garamond";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 0px;
+}
+
+.right_border_no {
+    border-right: none;
+}
+
+.inner_home2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home1 {
+    position: relative;
+    background: url(../img/homepage1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 273px;
+    padding-bottom: 296px;
+}
+.home_scroll {
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.home1 p {
+    color: #F8D49E;
+font-family: "Josefin Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+.home1 h1{
+    color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 110px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 0px;
+}
+
+.home1 h2 {
+    color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 110px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 0px;
+margin-top: -8px;
+}
+.home1 h2 span {
+    color: #F8D49E;
+font-family: "Cormorant Garamond";
+font-size: 110px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 0px;
+margin-top: -8px;
+}
+.home1 h3 {
+    color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 110px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 8px;
+margin-top: -8px;
+}
+
+.home1 h4 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.bottomhome1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mobile_none {
+        display: none;
+    }
+
+    .desktop_none {
+        display: block;
+    }
+
+    .trans_button {
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid #FFF;
+        color: #FFF;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .aboutus_1 {
+        background: url(../img/about1_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 305px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .in_about1 {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .top_about1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .about1_tt {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .aboutus_3 {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about3_p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 200% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about3_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .bottom_about3 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .card_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .card_card {
+        height: 450px;
+        width: 100%;
+        max-width: 353px;
+        padding: 20px;
+        background: url(../img/cardmob_1.jpg);
+    }
+
+    .card2 {
+        background: url(../img/cardmob_2.jpg);
+    }
+
+    .card3 {
+        background: url(../img/cardmob_3.jpg);
+    }
+
+    .card4 {
+        background: url(../img/cardmob_4.jpg);
+    }
+
+    .aboutus_2 {
+        flex-direction: column;
+    }
+
+    .right_about2 {
+        height: 600px;
+        background: url(../img/right_about_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .left_about2 {
+        padding: 40px 24px;
+    }
+
+    .about2_pp {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about2_tt {
+        color: #1A1A1A;
+        font-family: "Cormorant Garamond";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .gold_buttton {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: center;
+        background: #F8D49E;
+    }
+
+    .stick_right {
+        margin-left: 0px;
+    }
+
+    .top_top {
+        flex-direction: column;
+    }
+
+    .aboutus_4 {
+        padding: 20px;
+    }
+
+    .about4_card {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .number_css {
+        color: rgba(248, 212, 158, 0.16);
+        font-family: "Cormorant Garamond";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .second_side h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .second_side p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+
+        align-self: stretch;
+    }
+
+
+    .home7 {
+        background: url(../img/home7_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 132px 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home7_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .home7_tt_span {
+        color: #F8D49E;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home5 {
+        border-top: none;
+        border-bottom: none;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box_box {
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        width: 100%;
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(248, 212, 158, 0.20);
+    }
+
+    .no_right_border {
+        border-bottom: none;
+    }
+
+    .home_6 {
+        padding: 20px;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .bottom_home6 {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        align-self: unset;
+    }
+
+    .bottom_home6_card {
+        padding: 24px;
+        max-width: 353px;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .home6_1 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        /* 62.5% */
+    }
+
+    .home6_2 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Segoe UI Symbol";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+    }
+
+    .home6_3 {
+        color: #F5EFE0;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        /* 171.429% */
+
+        align-self: stretch;
+    }
+
+    .home6_4 {
+        display: flex;
+        height: 11px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .home4 {
+        padding: 40px 20px;
+    }
+
+    .middle_home4 {
+        flex-direction: column;
+    }
+
+    .middle_card {
+        height: 450px;
+        max-width: 353px;
+        width: 100%;
+        padding: 20px;
+        background: url(../img/middlecard_mob1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card2 {
+        background: url(../img/middlecard_mob2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card3 {
+        background: url(../img/middlecard_mob3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .middle_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .middle_card h2 {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .right_home3 {
+        padding: 40px 20px;
+    }
+
+    .left_home3 {
+        height: 400px;
+        background: url(../img/left_home3_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .stick_left {
+        margin-left: 0px;
+    }
+
+    .home3 {
+        flex-direction: column;
+    }
+
+    .inner_home2 {
+        flex-direction: column;
+    }
+
+    .home2_card {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        border-right: none;
+    }
+
+    .left_div h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .left_div p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+    }
+
+    .home2_card {
+        width: auto;
+        max-width: fit-content;
+    }
+    .home1 p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .home1 h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h2 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+
+    .home1 h2 span {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h3 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+        margin-bottom: 28px;
+    }
+    .home1 h4 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 153.846% */
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }
+    .bottomhome1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
+    }
+    .home1 {
+        padding-top: 213px;
+        padding-bottom: 211px;
+    }
+    .home_scroll {
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:991px) {
+
+    .mobile_none {
+        display: none;
+    }
+
+    .desktop_none {
+        display: block;
+    }
+
+    .trans_button {
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid #FFF;
+        color: #FFF;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .aboutus_1 {
+        background: url(../img/about1_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 305px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .in_about1 {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .top_about1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .about1_tt {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .aboutus_3 {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about3_p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 200% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about3_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .bottom_about3 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .card_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .card_card {
+        height: 450px;
+        width: 100%;
+        max-width: 353px;
+        padding: 20px;
+        background: url(../img/cardmob_1.jpg);
+    }
+
+    .card2 {
+        background: url(../img/cardmob_2.jpg);
+    }
+
+    .card3 {
+        background: url(../img/cardmob_3.jpg);
+    }
+
+    .card4 {
+        background: url(../img/cardmob_4.jpg);
+    }
+/* 
+    .aboutus_2 {
+        flex-direction: column;
+    }
+
+    .right_about2 {
+        height: 600px;
+        background: url(../img/right_about_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .left_about2 {
+        padding: 40px 24px;
+    }
+
+    .about2_pp {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about2_tt {
+        color: #1A1A1A;
+        font-family: "Cormorant Garamond";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    } */
+
+    .left_about2 {
+        padding: 40px;
+    }
+    .gold_buttton {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: center;
+        background: #F8D49E;
+    }
+
+    .stick_right {
+        margin-left: 0px;
+    }
+
+    .top_top {
+        flex-direction: column;
+    }
+
+    .aboutus_4 {
+        padding: 20px;
+    }
+
+    .about4_card {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .number_css {
+        color: rgba(248, 212, 158, 0.16);
+        font-family: "Cormorant Garamond";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .second_side h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .second_side p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+
+        align-self: stretch;
+    }
+
+
+    .home7 {
+        background: url(../img/home7_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 132px 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home7_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .home7_tt_span {
+        color: #F8D49E;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home5 {
+        border-top: none;
+        border-bottom: none;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box_box {
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        width: 100%;
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(248, 212, 158, 0.20);
+    }
+
+    .no_right_border {
+        border-bottom: none;
+    }
+
+    .home_6 {
+        padding: 20px;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .bottom_home6 {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        align-self: unset;
+    }
+
+    .bottom_home6_card {
+        padding: 24px;
+        max-width: 353px;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .home6_1 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        /* 62.5% */
+    }
+
+    .home6_2 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Segoe UI Symbol";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+    }
+
+    .home6_3 {
+        color: #F5EFE0;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        /* 171.429% */
+
+        align-self: stretch;
+    }
+
+    .home6_4 {
+        display: flex;
+        height: 11px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .home4 {
+        padding: 40px 20px;
+    }
+
+    .middle_home4 {
+        flex-direction: column;
+    }
+
+    .middle_card {
+        height: 450px;
+        max-width: 353px;
+        width: 100%;
+        padding: 20px;
+        background: url(../img/middlecard_mob1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card2 {
+        background: url(../img/middlecard_mob2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card3 {
+        background: url(../img/middlecard_mob3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .middle_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .middle_card h2 {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+/* 
+    .right_home3 {
+        padding: 40px 20px;
+    }
+
+    .left_home3 {
+        height: 400px;
+        background: url(../img/left_home3_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .stick_left {
+        margin-left: 0px;
+    }
+
+    .home3 {
+        flex-direction: column;
+    }
+ */
+
+ .right_home3 {
+    padding: 50px;
+ }
+    .inner_home2 {
+        flex-direction: column;
+    }
+
+    .home2_card {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        border-right: none;
+    }
+
+    .left_div h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .left_div p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+    }
+
+    .home2_card {
+        width: auto;
+        max-width: fit-content;
+    }
+    .home1 p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .home1 h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h2 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+
+    .home1 h2 span {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h3 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+        margin-bottom: 28px;
+    }
+    .home1 h4 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 153.846% */
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }
+    .bottomhome1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
+    }
+    .home1 {
+        padding-top: 213px;
+        padding-bottom: 211px;
+    }
+    .home_scroll {
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1151px) {
+
+    .mobile_none {
+        display: none;
+    }
+
+    .desktop_none {
+        display: block;
+    }
+
+    .trans_button {
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid #FFF;
+        color: #FFF;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .aboutus_1 {
+        background: url(../img/about1_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 305px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .in_about1 {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .top_about1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .about1_tt {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .aboutus_3 {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about3_p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 200% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about3_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .bottom_about3 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .card_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .card_card {
+        height: 450px;
+        width: 100%;
+        max-width: 353px;
+        padding: 20px;
+        background: url(../img/cardmob_1.jpg);
+    }
+
+    .card2 {
+        background: url(../img/cardmob_2.jpg);
+    }
+
+    .card3 {
+        background: url(../img/cardmob_3.jpg);
+    }
+
+    .card4 {
+        background: url(../img/cardmob_4.jpg);
+    }
+/* 
+    .aboutus_2 {
+        flex-direction: column;
+    }
+
+    .right_about2 {
+        height: 600px;
+        background: url(../img/right_about_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .left_about2 {
+        padding: 40px 24px;
+    }
+
+    .about2_pp {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .about2_tt {
+        color: #1A1A1A;
+        font-family: "Cormorant Garamond";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+ */
+ .left_about2 {
+    padding: 80px;
+ }
+    .gold_buttton {
+        color: #1A1A1A;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        display: flex;
+        padding: 16px 44px;
+        flex-direction: column;
+        align-items: center;
+        background: #F8D49E;
+    }
+
+    .stick_right {
+        margin-left: 0px;
+    }
+
+    .top_top {
+        flex-direction: column;
+    }
+
+    .aboutus_4 {
+        padding: 20px;
+    }
+
+    .about4_card {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .number_css {
+        color: rgba(248, 212, 158, 0.16);
+        font-family: "Cormorant Garamond";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .second_side h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .second_side p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+
+        align-self: stretch;
+    }
+
+
+    .home7 {
+        background: url(../img/home7_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 132px 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home7_tt {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .home7_tt_span {
+        color: #F8D49E;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home5 {
+        border-top: none;
+        border-bottom: none;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box_box {
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        width: 100%;
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(248, 212, 158, 0.20);
+    }
+
+    .no_right_border {
+        border-bottom: none;
+    }
+
+    .home_6 {
+        padding: 20px;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .bottom_home6 {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        align-self: unset;
+    }
+
+    .bottom_home6_card {
+        padding: 24px;
+        max-width: 353px;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .home6_1 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        /* 62.5% */
+    }
+
+    .home6_2 {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Segoe UI Symbol";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+    }
+
+    .home6_3 {
+        color: #F5EFE0;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        /* 171.429% */
+
+        align-self: stretch;
+    }
+
+    .home6_4 {
+        display: flex;
+        height: 11px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .home4 {
+        padding: 40px 20px;
+    }
+
+    .middle_home4 {
+        flex-direction: column;
+    }
+
+    .middle_card {
+        height: 450px;
+        max-width: 353px;
+        width: 100%;
+        padding: 20px;
+        background: url(../img/middlecard_mob1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card2 {
+        background: url(../img/middlecard_mob2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card3 {
+        background: url(../img/middlecard_mob3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .middle_card p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .middle_card h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .middle_card h2 {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    /* .right_home3 {
+        padding: 40px 20px;
+    }
+
+    .left_home3 {
+        height: 400px;
+        background: url(../img/left_home3_mob.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .stick_left {
+        margin-left: 0px;
+    }
+
+    .home3 {
+        flex-direction: column;
+    } */
+    .right_home3 {
+        padding: 80px;
+    }
+
+    .inner_home2 {
+        flex-direction: column;
+    }
+
+    .home2_card {
+        display: flex;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        border-right: none;
+    }
+
+    .left_div h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+    }
+
+    .left_div p {
+        color: rgba(212, 202, 184, 0.70);
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 184.615% */
+    }
+
+    .home2_card {
+        width: auto;
+        max-width: fit-content;
+    }
+    .home1 p {
+        color: #F8D49E;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .home1 h1 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h2 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+
+    .home1 h2 span {
+        color: #F8D49E;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+    .home1 h3 {
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 0px;
+        margin-bottom: 28px;
+    }
+    .home1 h4 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 153.846% */
+        text-transform: uppercase;
+        margin-bottom: 56px;
+    }
+    .bottomhome1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
+    }
+    .home1 {
+        padding-top: 213px;
+        padding-bottom: 211px;
+    }
+    .home_scroll {
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1152px) and (max-width:1279px) {
+    .home2_card {
+        padding: 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1348px) {
+    .home2_card {
+        padding: 42px;
+    }
+}
+
+@media only screen and (min-width: 1349px) and (max-width:1439px) {
+    .home2_card {
+        padding: 52px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1499px) {
+    .home2_card {
+        padding: 62px;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1599px) {
+    .home2_card {
+        padding: 72px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width:1699px) {
+    .home2_card {
+        padding: 72px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width:1799px) {}
+
+@media only screen and (min-width: 1800px) and (max-width:1919px) {}
