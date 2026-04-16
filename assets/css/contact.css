@@ -1,7 +1,7 @@
 /* ===============================
    NAVBAR
 ================================ */
-header {
+/* header {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@ header {
     backdrop-filter: blur(4px);
 
     transition: all 0.3s ease;
-}
+} */
 
 .nav_main {
     width: 100%;
@@ -78,17 +78,27 @@ header.scrolled {
     background: #0d0d0d;
 }
 
+.contact_reservation .row {
+    display: flex;
+    align-items: stretch;
+}
+
+
+
 /* ===============================
    LEFT SECTION
 ================================ */
 .contact_left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     align-items: flex-start;
 
-    padding: 100px 80px;
+    padding: 100px 20px 100px 80px;
     background: #1A1A1A;
+     max-width: 100%;
+     
 }
 
 .contact_left h2 {
@@ -202,9 +212,10 @@ header.scrolled {
    RIGHT SECTION
 ================================ */
 .contact_right {
-    display: flex;
+  display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+
     padding: 100px 80px;
     background: rgba(254, 254, 253, 0.105);
 }
@@ -231,6 +242,7 @@ header.scrolled {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 100%;
 }
 
 .form_group {
@@ -352,13 +364,23 @@ header.scrolled {
 .section_heading {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
     margin-bottom: 10px;
+}
+
+.section_heading_find {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .heading_line {
     width: 44px;
     display: block;
+    margin-bottom: 5px;
 }
 
 .section_heading p {
@@ -381,6 +403,7 @@ header.scrolled {
 .sub_heading {
     font-size: 14px;
     letter-spacing: 5px;
+    margin: 0px;
 }
 
 /* ===============================
