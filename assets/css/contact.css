@@ -95,7 +95,7 @@ header.scrolled {
     
     align-items: flex-start;
 
-    padding: 100px 20px 100px 80px;
+    padding: 100px 20px 100px 50px;
     background: #1A1A1A;
      max-width: 100%;
      
@@ -216,7 +216,7 @@ header.scrolled {
     flex-direction: column;
     justify-content: center;
 
-    padding: 100px 80px;
+    padding: 100px 20px 100px 50px;
     background: rgba(254, 254, 253, 0.105);
 }
 
