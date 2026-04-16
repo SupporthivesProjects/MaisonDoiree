@@ -1,7 +1,7 @@
 /* ===============================
    NAVBAR
 ================================ */
-/* header {
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@
     backdrop-filter: blur(4px);
 
     transition: all 0.3s ease;
-} */
+}
 
 .nav_main {
     width: 100%;

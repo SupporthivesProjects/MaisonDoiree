@@ -39,6 +39,13 @@
     display: none;
 }
 
+header {
+    
+
+
+    background: rgba(26, 26, 26, 0.16);
+    backdrop-filter: blur(4px);
+}
 
 .btn_nav, .btn_nav:hover {
     display: flex;
