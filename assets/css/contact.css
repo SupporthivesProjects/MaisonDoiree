@@ -44,16 +44,14 @@ header.scrolled {
 .contact_hero {
     display: flex;
     align-items: flex-end;
-    padding: 100px;
+    padding: 100px 0px;
     height: 620px;
     position: relative;
 
-    background: linear-gradient(
-        0deg,
-        rgba(26, 26, 26, 0.4),
-        rgba(26, 26, 26, 0.4)
-    ),
-    url('../img/contact-hero.png') center/cover no-repeat;
+    background: linear-gradient(0deg,
+            rgba(26, 26, 26, 0.4),
+            rgba(26, 26, 26, 0.4)),
+        url('../img/contact-hero.png') center/cover no-repeat;
 }
 
 .hero_content {
@@ -61,6 +59,7 @@ header.scrolled {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+    padding: 0px;
 }
 
 .hero_content h1 {
@@ -92,13 +91,13 @@ header.scrolled {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     align-items: flex-start;
 
     padding: 100px 20px 100px 50px;
     background: #1A1A1A;
-     max-width: 100%;
-     
+    max-width: 100%;
+
 }
 
 .contact_left h2 {
@@ -106,7 +105,7 @@ header.scrolled {
     font-family: "Cormorant Garamond", serif;
     font-size: 52px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .contact_left .desc {
@@ -115,15 +114,15 @@ header.scrolled {
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 56px;
 }
 
 /* INFO */
 .info_item {
     display: flex;
     align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 28px;
+    gap: 24px;
+    margin-bottom: 36px;
 }
 
 .icon_box {
@@ -149,28 +148,32 @@ header.scrolled {
 }
 
 .info_title {
-    color: #F8D49E;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 6px;
+    color: #F8D49E !important;
+    font-family: "Josefin Sans" !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: normal !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 4px !important;
 }
 
 .info_item p {
     color: #F5EFE0;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans";
     font-size: 14px;
+    font-style: normal;
     font-weight: 300;
     line-height: 22.4px;
+    /* 160% */
     margin: 0;
 }
 
 /* SOCIAL */
 .social_icons {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     margin-top: 40px;
 }
 
@@ -212,7 +215,7 @@ header.scrolled {
    RIGHT SECTION
 ================================ */
 .contact_right {
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 
@@ -225,7 +228,7 @@ header.scrolled {
     font-family: "Cormorant Garamond", serif;
     font-size: 52px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .contact_right .sub_heading {
@@ -234,7 +237,7 @@ header.scrolled {
     font-size: 14px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 48px;
 }
 
 /* FORM */
@@ -246,7 +249,7 @@ header.scrolled {
 }
 
 .form_group {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .form_group label {
@@ -256,7 +259,7 @@ header.scrolled {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .reservation_form input,
@@ -317,19 +320,17 @@ header.scrolled {
     height: 500px;
     padding: 100px 20px;
 
-    background: linear-gradient(
-        0deg,
-        rgba(26, 26, 26, 0.45),
-        rgba(26, 26, 26, 0.45)
-    ),
-    url('../img/contact-hero2.png') center/cover no-repeat;
+    background: linear-gradient(0deg,
+            rgba(26, 26, 26, 0.45),
+            rgba(26, 26, 26, 0.45)),
+        url('../img/contact-hero2.png') center/cover no-repeat;
 }
 
 .location_content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 .location_pin {
@@ -364,16 +365,18 @@ header.scrolled {
 .section_heading {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
     margin-bottom: 10px;
 }
 
 .section_heading_find {
     display: flex;
-    justify-content: center;   /* center horizontally */
-    align-items: center;       /* center vertically */
-    gap: 15px;
-    margin-bottom: 15px;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+    gap: 16px;
+    margin-bottom: 24px;
     text-align: center;
 }
 
@@ -417,34 +420,112 @@ header.scrolled {
 
     .contact_hero {
         padding: 40px 20px;
-        height: 400px;
+        height: 428px;
+        background: linear-gradient(0deg,
+                rgba(26, 26, 26, 0.4),
+                rgba(26, 26, 26, 0.4)),
+            url('../img/contain_mob.png') center/cover no-repeat;
     }
 
     .hero_content h1 {
-        font-size: 42px;
+        color: #FFF;
+        font-family: "Cormorant Garamond";
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
     }
+
+    .section_heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 0px;
+}
 
     .contact_left,
     .contact_right {
-        padding: 60px 20px;
+        padding: 20px 20px;
     }
 
+    .section_heading_find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.contact_left h2{
+    color: #FFF;
+text-align: center;
+font-family: "Cormorant Garamond";
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.contact_left .desc {
+    color: rgba(248, 212, 158, 0.40);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.info_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.social_icons{
+    margin-top: 32px;
+}
+
+.contact_right h2 {
+    color: #FFF;
+text-align: center;
+font-family: "Cormorant Garamond";
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.contact_right .sub_heading{
+    margin-bottom: 32px;
+}
+
+.btn_submit{
+    margin-top: 4px;
+}
     .location_section {
-        height: 350px;
+        height: 500px;
         padding: 60px 15px;
+           background: linear-gradient(0deg,
+            rgba(26, 26, 26, 0.45),
+            rgba(26, 26, 26, 0.45)),
+        url('../img/cont_last_sec.png') center/cover no-repeat;
     }
 
-    .location_text {
-        font-size: 24px;
-    }
-
-    .location_pin {
-        width: 46px;
-        height: 46px;
-    }
+  
 
     .location_pin img {
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
     }
 }
