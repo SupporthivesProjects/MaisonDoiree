@@ -356,6 +356,7 @@ header {
     .nav_logo {
         display: flex;
         align-items: center;
+        margin-top: -6px;
     }
     .footer_left_text {
         max-width: unset;
