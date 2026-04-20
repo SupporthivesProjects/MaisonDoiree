@@ -90,11 +90,11 @@ header.scrolled {
 .contact_left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 
     align-items: flex-start;
 
-    padding: 100px 20px 100px 50px;
+padding: 100px 80px;
     background: #1A1A1A;
     max-width: 100%;
 
@@ -219,7 +219,7 @@ header.scrolled {
     flex-direction: column;
     justify-content: center;
 
-    padding: 100px 20px 100px 50px;
+padding: 100px 80px;
     background: rgba(254, 254, 253, 0.105);
 }
 
@@ -498,7 +498,7 @@ line-height: normal;
 
 .contact_right h2 {
     color: #FFF;
-text-align: center;
+text-align: left;
 font-family: "Cormorant Garamond";
 font-size: 40px;
 font-style: normal;
