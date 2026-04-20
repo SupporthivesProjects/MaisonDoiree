@@ -6,6 +6,11 @@
     display: block;
 }
 
+.diff_padddding {
+    padding: 16px 24px!important;
+}
+
+
 .aboutus_1 {
     background: url(../img/about1.jpg);
     background-size: cover;
