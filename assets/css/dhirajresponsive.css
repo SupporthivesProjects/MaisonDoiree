@@ -148,6 +148,10 @@
         margin-bottom: 6px;
     }
 
+    .menu_tab-badge{
+        padding: 4px;
+    }
+
     .spave {
         height: 10px;
     }
