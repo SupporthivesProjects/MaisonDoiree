@@ -75,6 +75,7 @@
         letter-spacing: 3px;
         text-transform: uppercase;
         text-align: center;
+        width: 100%;
     }
 
     .menu_tab-tabs .nav-link.active {
@@ -95,7 +96,7 @@
         letter-spacing: 3px;
         text-transform: uppercase;
         text-align: center;
-
+        width: 100%;
     }
 
     .menu_tab-tabs {
