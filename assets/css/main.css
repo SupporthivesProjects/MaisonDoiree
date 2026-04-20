@@ -183,8 +183,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     gap: 60px;
+
 }
 .footer_right {
     display: flex;
@@ -193,6 +194,7 @@ header {
     align-items: flex-start;
     gap: 60px;
     width: 100%;
+    max-width: 1059px;
 }
 .footer_left_text {
     color: rgba(212, 202, 184, 0.70);
