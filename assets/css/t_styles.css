@@ -9,6 +9,27 @@
 .diff_padddding {
     padding: 16px 24px!important;
 }
+.terms_bottom {
+    background: #F5EFE0;
+    padding: 100px 50px;
+}
+.in_term_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.terms_pp {
+    text-align: center;
+    max-width: 980px;
+    color: rgba(15, 15, 15, 0.65);
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    margin-bottom: 0px;
+}
 
 
 .aboutus_1 {
