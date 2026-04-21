@@ -852,6 +852,15 @@ margin-top: -8px;
         display: block;
     }
 
+    .terms_bottom {
+        padding: 48px 24px;
+    }
+    .terms_pp {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
     .trans_button {
         display: flex;
         padding: 16px 44px;
